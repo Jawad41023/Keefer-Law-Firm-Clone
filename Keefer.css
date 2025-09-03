@@ -1,0 +1,512 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: gray;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container {
+    background-color: white;
+    width: 100%;
+    box-shadow: 0px 5px 14px black;
+}
+
+.image11 {
+    height: inherit;
+    width: inherit;
+}
+
+p {
+    width: 100%;
+}
+
+.topnav {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    overflow: hidden;
+    background-color: brown;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.topnav a:hover {
+    background-color: gray;
+    color: white;
+    border-radius: 10px;
+}
+
+.topnav .icon {
+    display: none;
+    padding: 10px;
+}
+
+.show-btn {
+    display: block;
+}
+
+@media screen and (max-width: 720px) {
+    .topnav a {
+        display: none;
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+
+    .topnav {
+        display: block;
+    }
+}
+
+
+@media screen and (max-width: 720px) {
+    .topnav.responsive {
+        position: relative;
+    }
+
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .topnav a:hover {
+        background-color: gray;
+        color: white;
+        border-radius: 10px;
+    }
+}
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    gap: 20px;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+
+.image1 {
+    /* box-shadow: 0px 0px 10px black; */
+    height: 350px;
+    width: 550px;
+    background: transparent;
+}
+.image1 img{
+    border-radius: 15px;
+}
+
+.image2 {
+    background-image: url(form_bg.jpg);
+    background-size: cover;
+    height: 350px;
+    width: 550px;
+}
+
+.image2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.para {
+    font-family: "Abhaya Libre", serif;
+    background-color: brown;
+    color: white;
+    font-weight: bold;
+    height: fit-content;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.head-sec {
+    display: flex;
+    gap: 20px;
+}
+
+#question-case {
+    position: relative;
+    left: 40px;
+    top: -20px;
+}
+
+@media screen and (max-width: 510px) {
+    .image2 {
+        background-image: url(form_bg.jpg);
+        background-size: cover;
+        height: fit-content;
+        width: 100%;
+    }
+    .para {
+        font-family: "Abhaya Libre", serif;
+        background-color: brown;
+        color: white;
+        font-weight: bold;
+        height: fit-content;
+        padding: 1%;
+        font-size: 5.0vw;
+    }
+    #question-case {
+        padding-top: 10px;
+        position: relative;
+        left: 20px;
+        font-size: 4.5vw;
+    }
+    #question-case span{
+        color: rgb(33, 33, 174);
+        font-size: 6vw;
+    }
+    #info-para {
+        /* border: 2px solid black; */
+        padding-top: 5%;
+        font-size:3vw;
+        width: 85%;
+    }
+    #info-para span{
+    font-weight: bolder;
+    font-size:3vw;
+    }
+    table input{
+        border: none;
+        margin-top: 5px;
+        width:35vw;
+    }
+    table td{
+        font-size: 3vw;
+    }
+    #confidimg{
+        width: 30vw;
+    }
+    .last-area {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        gap: 30px;
+        padding-top: 20px;
+    }
+    
+}
+ input{border: none;}
+ #guarranteed{
+    font-family:Zain, sans-serif; 
+    font-size: 100%; 
+    font-style: italic;
+ }
+#bold-Ques {
+    color: rgb(33, 33, 174);
+    font-size: 35px;
+}
+
+.middle-sec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    position: relative;
+    top: -60px;
+    padding-left: -10px;
+}
+
+.middle-sec p {
+    width: 85%;
+    font-size: 16.5px;
+}
+
+#ph-num {
+    font-weight: bold;
+    font-size: 16.5px;
+}
+
+.form {
+    display: flex;
+    position: relative;
+    top: -15px;
+    gap: 10px;
+}
+
+form input {
+    height: 20px;
+    margin-top: 5px;
+}
+
+.confid {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.confid img {
+    height: 60px;
+    width: 220px;
+    transform: rotate(8deg);
+}
+
+.txt-area {
+    width: 85%;
+    height: 50px;
+    
+}
+
+textarea {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+textarea::placeholder {
+    color: black;
+    font-weight: bold;
+}
+
+.last-area {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+#ask-about-btn {
+    border: 0px;
+    font-family: "Abhaya Libre", serif;
+    background-color: brown;
+    color: white;
+    font-weight: bold;
+    height: 40px;
+    width: 50%;
+}
+
+.container3 {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 20px;
+    box-shadow: 0px 40px 60px -40pxblack;
+}
+
+#btn {
+    box-shadow: 0px 0px 10px black;
+    border: none;
+    color: white;
+    background-color: darkred;
+    height: 20px;
+    width: 100px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.btnbox1 {
+    position: relative;
+    top: -50px;
+    left: 100px;
+    height: 25px;
+    width: 200px;
+    border-top: 1px solid black;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.btnbox2 {
+    position: relative;
+    top: -25px;
+    height: 20px;
+    width: 180px;
+    border-top: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnbox3 {
+    position: relative;
+    top: -20px;
+    height: 20px;
+    width: 180px;
+    border-top: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnbox4 {
+    position: relative;
+    top: -80px;
+    left: 125px;
+    height: 25px;
+    width: 200px;
+    border-top: 1px solid black;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.box1 {
+    width: 320px;
+    height: 300px;
+}
+
+.texts {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    position: relative;
+    top: -50px;
+    padding-right: 20px;
+}
+
+.box2 {
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    width: 340px;
+    height: 300px;
+
+}
+
+.boxx2 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.box3 {
+    width: 320px;
+    height: 280px;
+    padding: 10px;
+}
+
+.navbar {
+    display: none;
+}
+
+@media (min-width: 720px) {
+    .navbar {
+        display: flex;
+    }
+
+    .show {
+        display: none;
+    }
+}
+
+.container4 {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.left {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    flex-direction: column;
+    display: flex;
+    height: auto;
+}
+
+.practice-areas {
+    padding: 0px;
+}
+
+.area {
+    position: relative;
+    top: -25px;
+    margin: 10px;
+    color: white;
+    background-color: gray;
+    display: flex;
+    width: 250px;
+    height: 70px;
+    flex-direction: row;
+}
+
+.btnname {
+    padding: 10px;
+}
+
+#learnmore {
+    font-size: 12px;
+    font-weight: bolder;
+    width: auto;
+    position: relative;
+    left: 120px;
+    top: 5px;
+}
+
+/* middle div*/
+.middle {
+    padding: 10px;
+    height: auto;
+    width: 600px;
+}
+
+.right {
+    height: auto;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    gap: 30px;
+    padding-left: 20px;
+    padding-bottom: 40px;
+}
+
+.menuS {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 200px;
+}
+
+.container5 {
+    height: 30px;
+    width: 100%;
+    background-color: gray;
+}
+
+.brownline {
+    height: 15px;
+    width: 100%;
+    background-color: brown;
+}

@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Keefer</title>
+    <link rel="stylesheet" href="Keefer.css" class="keefer">
+</head>
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
+
+<body>
+    <div class="header">
+
+    </div>
+    <div class="container">
+        <div class="header" style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+            <div class="image11"><img src="logo.png" alt="image1" width="100%" height="100%"></div>
+            <div class="address" style="display: flex; flex-direction: column ;
+         align-items: center; justify-content: center; padding-right: 20px;">
+                <p style="line-height: 20px; text-align: center; padding: 10px;">
+                    <span class="text-decoration-underline" style="color: brown; text-decoration: underline;
+            position: relative; top: -15px; 
+            font-size:23px; font-weight: bolder; padding-top: 0px;">CALL OUR OFFICES NOW !</span>
+                    <br><span class="fw-bold" style="font-size: 50px; font-weight: bolder; 
+            margin: 0px; padding: 0px;">540.433.6906</span>
+                    <br><span class="fw-bold" style="font-size: 20.8px;">Get Our Questions Answerd Fast</span>
+                </p>
+            </div>
+        </div>
+        <div class="topnav" id="myTopnav">
+            <a href="#home">HOME</a>
+            <a href="#biography">BIOGRAPHY</a>
+            <a href="#blog">BLOG</a>
+            <a href="#area we serve">AREA WE SERVE</a>
+            <a href="#library">LIBRARY</a>
+            <a href="#contact">CONTACT</a>
+            <a class="icon " onclick="myFunction()">
+                <svg class="bars-icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
+                    fill="white">
+                    <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                </svg>
+            </a>
+        </div>
+
+        <div class="container2">
+            <div class="image1">
+                <img src="gurantee_banner.gif" alt="img1" height="100%" width="100%">
+            </div>
+            <div class="image2">
+                <div class="head-sec">
+                    <section class="para">QUESTIONS ?</section>
+                    <h2 id="question-case">Have a
+                        <span id="bold-Ques">Question</span><br>
+                        About Your Case?
+                    </h2>
+                </div>
+                <div class="middle-sec">
+                    <p id="info-para">Enter your information and get your questions answered
+                        quickly and discreetly or call us at:<span  id="ph-num"> 540.433.6906</span></p>
+                    <div class="form">
+                            <form>
+                                <table id="table">
+                                    <tr>
+                                        <td>Name:</td>
+                                        <td>
+                                            <input type="text" name="name" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Email:</td>
+                                        <td><input type="email" name="email" /></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Phone:</td>
+                                        <td><input type="number" name="phone" /></td>
+                                    </tr>
+                                </table>
+                            </form>
+                        <div class="confid">
+                            <img id="confidimg" src="confidential.png" alt="confid" hieght="" width="100">
+                        </div>
+                    </div>
+                    <div class="txt-area">
+                        <textarea id="case" name="case"
+                            placeholder="Tell us about your case here..."></textarea>
+                    </div>
+                    <div class="last-area">
+                        <span id="guarranteed" > 100%
+                            privacy guarranteed</span>
+                        <button id="ask-about-btn">Ask Us About Your Case</button>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="container3">
+            <!--BOX-1-->
+            <div class="box1" style="padding-left: 20px;">
+                <div class="text" style="display: flex; flex-direction: row; gap: 3px; 
+                font-size: 25px; font-weight: bold; margin: 0px; padding: 0px;">
+                    <p>CHARGED WITH <span style="color: brown;"> DUI?</span></p>
+                </div>
+                <p style="color: brown; font-size: 17px; font-weight: bold; position: relative;
+                 top: -30px;">
+                    FREE CASE EVALUATION</p>
+                <div class="texts" style="display: flex;  flex-direction: row;">
+                    <div class="txt" style="font-size: 18px; width: 200px;">
+                        <p>being charged with a DUI can be scary. Get the help you deserve</p>
+                        <p>Click here to let us know how can we help with your case.</p>
+                    </div>
+                    <div class="pasteboard">
+                        <img src="paste_board.gif" alt="paste board" height="120px">
+                    </div>
+                </div>
+                <div class="btnbox1">
+                    <button id="btn">CLICK HERE</button>
+                    <img src="bullet_white.gif" alt="bullet" height="20px">
+                </div>
+            </div>
+            <!--BOX-2-->
+            <div class="box2">
+                <!--law blog-->
+                <div class="lawblog" style="height: 50%; border-bottom: 1px solid black;
+                padding-top: 0px; padding-left: 10px; ">
+                    <div class="text" style="display: flex; flex-direction: row; gap: 8px; 
+                font-size: 25px; font-weight: bold; margin: 0px; padding: 0px;width: auto; height: 40px;">
+                        <p>LAW <span style="color: brown;">BLOG</span></p>
+                    </div>
+                    <div class="boxx2" style="width: fit-content; font-size: 16px;">
+                        <p>Learn more about Virginia Trafic laws</p>
+                        <div class="pic1" style="position: relative; left: -25px; background: transparent;">
+                            <img src="pic1.gif" alt="pic1" height="80px" width="140px"
+                                style="position: relative; left: 20px;">
+                        </div>
+                    </div>
+                    <div class="btnbox2">
+                        <button id="btn">CLICK HERE</button>
+                        <img src="bullet_white.gif" alt="bullet" height="20px">
+                    </div>
+                </div>
+                <!--case result-->
+                <div class="case-result" style="position: relative; top: -10px; padding-left: 10px;">
+                    <div class="text" style="display: flex; flex-direction: row; width: auto; height: 40px;
+                font-size: 25px; font-weight: bold; margin: 0px; gap: 8px; padding: 0px;">
+                        <p>CASE <span style="color: brown;">RESULTS</span></p>
+                    </div>
+                    <div class="boxx2" style="position: relative; top:10px">
+                        <p style="font-size: 14px; width: 200px;">
+                            See How we Help Our Clients.
+                            Read our latest case results.</p>
+                        <img src="order_icon.gif" alt="pic1" height="100px" width="130px"
+                            style="position: relative; top: -20px;">
+                    </div>
+                    <div class="btnbox3">
+                        <button id="btn">CLICK HERE</button>
+                        <img src="bullet_white.gif" alt="bullet" height="20px">
+                    </div>
+                </div>
+
+            </div>
+            <!--BOX-3-->
+            <div class="box3">
+                <div class="logos" style="padding: 30px;padding-top: 10px; display: flex;
+                 flex-direction: row; align-items: center; justify-content: center; gap: 20px;">
+                    <img src="avo_rating_large.gif" alt="avo" height="110px" width="140px">
+                    <img src="national_college_small.gif" alt="clg" height="110px" width="140px">
+                </div>
+                <div class="heading" style="gap: 3px; 
+                font-size: 22px; font-weight: bold; margin: 0px;
+                padding: 0px 0px 0px; height: fit-content; width: fit-content;
+                position: relative; top: -40px; left: 20px;">
+                    <p>CERTIFICATES &
+                        <br>
+                        <span style="color: brown;"> CREDNTIALS</span>
+                    </p>
+
+                </div>
+                <div class="texts">
+                    <div class="txt" style="font-size: 19px; position: relative; top: -25px; left: 20px; ">
+                        <p>Keefer Law Firm has Protected the right of virginians for over 30 years.</p>
+
+                    </div>
+                </div>
+                <div class="btnbox4">
+                    <button id="btn">CLICK HERE</button>
+                    <img src="bullet_white.gif" alt="bullet" height="20px">
+                </div>
+            </div>
+            <img src="hr_shadow.png" alt="bottom" width="100%">
+        </div><!--container3-->
+        <div class="container4">
+            <div class="left">
+                <h1 style="font-size: 28px; font-weight: bolder; height: fit-content;">PRACTICE <span
+                        style="color: brown;">AREAS</span></h1>
+                <div class="practice-areas">
+
+                    <div class="area">
+                        <div class="brownarea-left" style="height: 70px; width: 5%; background-color: brown;"></div>
+                        <div class="btnname">
+                            <span style="font-size: 19px;color: white; font-weight: bolder; width:auto;">DUI &
+                                DWI</span>
+                            <p id="learnmore">LEARN MORE
+                                <img src="bullet_red.gif" alt=" bullet red" height="11px" width="10px">
+                            </p>
+                        </div>
+                    </div>
+                    <div class="area">
+                        <div class="brownarea-left" style="height: 70px; width: 5%; background-color: brown;"></div>
+                        <div class="btnname">
+                            <span style="font-size: 19px;color: white; font-weight: bolder; width:auto;">
+                                RECKLESS DRIVING</span>
+                            <p id="learnmore">LEARN MORE
+                                <img src="bullet_red.gif" alt=" bullet red" height="11px" width="10px">
+                            </p>
+                        </div>
+                    </div>
+                    <div class="area">
+                        <div class="brownarea-left" style="height: 70px; width: 5%; background-color: brown;"></div>
+                        <div class="btnname">
+                            <span style="font-size: 19px;color: white; font-weight: bolder; width:auto;">
+                                SPEEDING TICKETS</span>
+                            <p id="learnmore">LEARN MORE
+                                <img src="bullet_red.gif" alt=" bullet red" height="11px" width="10px">
+                            </p>
+                        </div>
+                    </div>
+                    <div class="area">
+                        <div class="brownarea-left" style="height: 70px; width: 5%; background-color: brown;"></div>
+                        <div class="btnname">
+                            <span style="font-size: 19px;color: white; font-weight: bolder; width:auto;">
+                                TRAFFIC VOILATIONS</span>
+                            <p id="learnmore">LEARN MORE
+                                <img src="bullet_red.gif" alt=" bullet red" height="11px" width="10px">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <h1 style="font-size: 25px; font-weight: bolder; height: fit-content;position: relative; top: -20px;">
+                    LEARN<span style="color: brown;"> MORE </span>ABOUT</h1>
+                <div class="menu" style="display: flex; flex-direction: column; align-items: center; 
+                justify-content: center; line-height: 35px; color: lightgray;">
+                    <h1>MENU
+                        <br> AREA
+                        <br>HERE
+                    </h1>
+                </div>
+            </div>
+            <div class="middle">
+                <h1>
+                    < H1>PAGE TITLE HERE
+                </h1>
+                <p>Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                    sunt in anim id est laborum. Allamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Aser velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                    cupidatat non proident, sunt in anim id est laborum. Asunt in anim uis aute irure
+                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum.
+                    Allamco laboris nisi ut aliquip ex ea commodo consequat. Aser velit esse cillum dolore
+                    eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                    sunt in anim id est laborum.</p>
+            </div>
+            <div class="right">
+                <div class="menuS">
+                    <span style="font-size: 25px; font-weight: bolder; ">CLIENT
+                        <span style="color: brown;">TESTIMONIALS</span> </span>
+                    <span style="font-size:18px ;font-weight: 100;">
+                        Read What others say about Keefer Law Firm.</span>
+                    <div>
+                        <div class="clickherebtn" style=" margin-top: 10px;  width:200px;border-top: 2px solid gray; 
+                        display: flex; align-items: center; justify-content: center;">
+                            <button style="background-color: brown; border: 0px; color: white; 
+                            position: relative; left: 15px; box-shadow: 0px 0px 5px black;">CLICK HERE
+                                <img src="bullet_white.gif" alt="bullet" height="10px" width="auto"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="menuS">
+                    <span style="font-size: 25px; font-weight: bolder; ">DOWNLOAD
+                        <span style="color: brown;">FREE</span> REPORTS</span>
+                    <span style="font-size:18px ;font-weight: 100;">
+                        Discover the truth about the Virginia Law.</span>
+                    <div>
+                        <div class="clickherebtn" style=" margin-top: 10px;  width:200px;border-top: 2px solid gray; 
+                        display: flex; align-items: center; justify-content: center;">
+                            <button style="background-color: brown; border: 0px; color: white; 
+                            position: relative; left: 15px; box-shadow: 0px 0px 5px black;">CLICK HERE
+                                <img src="bullet_white.gif" alt="bullet" height="10px" width="auto"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="menuS">
+                    <span style="font-size: 25px; font-weight: bolder; ">CONTACT
+                        <span style="color: brown;">OUR</span> OFFICES </span>
+                    <span style="font-size:18px ;font-weight: 100;">
+                        Get your questions Answerd right now</span>
+                    <div>
+                        <div class="clickherebtn" style=" margin-top: 10px;  width:200px;border-top: 2px solid gray; 
+                        display: flex; align-items: center; justify-content: center;">
+                            <button style="background-color: brown; border: 0px; color: white; 
+                            position: relative; left: 15px; box-shadow: 0px 0px 5px black;">CLICK HERE
+                                <img src="bullet_white.gif" alt="bullet" height="10px" width="auto"></button>
+                        </div>
+                        <div class="menuimages" style="display: flex; flex-direction: column; align-items: center; 
+                        justify-content: center; gap: 30px; padding-top: 30px;">
+                            <img src="avo_rating_large.gif" alt="avo" height="110px" width="140px">
+                            <img src="national_college_small.gif" alt="clg" height="110px" width="140px">
+                            <span style="font-size: 25px; font-weight: bolder; text-align: center;">FOLLOW
+                                <span style="color: brown;">US</span>
+                                <img src="hr_shadow.png" alt="" width="200px" height="15px"
+                                    style="border-top: 3px solid gray;">
+                            </span>
+                            <div class="socialmedialogos"
+                                style="display: flex; gap: 10px; position: relative; top: -30px;">
+                                <img src="fb_icon.gif" alt="facebook" height="40px" width="40px" ;>
+                                <img src="google_icon.gif" alt="google icons" height="40px" width="40px" ;>
+                                <img src="twitter_icon.gif" alt="twiter" height="40px" width="40px" ;>
+                                <img src="linked_icon.gif" alt="linked in" height="40px" width="40px" ;>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container5">
+            <div class="brownline"></div>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
