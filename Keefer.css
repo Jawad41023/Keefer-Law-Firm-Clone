@@ -124,7 +124,7 @@ p {
 }
 
 .image2 {
-    background-image: url(form_bg.jpg);
+    background-image: url(./assests/form_bg.jpg);
     background-size: cover;
     height: 350px;
     width: 550px;
@@ -158,7 +158,7 @@ p {
 
 @media screen and (max-width: 510px) {
     .image2 {
-        background-image: url(form_bg.jpg);
+        background-image: url(./assests/form_bg.jpg);
         background-size: cover;
         height: fit-content;
         width: 100%;
